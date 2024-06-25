@@ -1,0 +1,57 @@
+
+.teach {
+    /* position: absolute; */
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    /* align-items: center;  */
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: rgba(0,0,0,.35) 0px 5px 15px;
+    border-radius: 20px;
+    width: 75%;
+    /*background-color: rgba(240, 248, 255, 0.3);*/ /* Use rgba for transparency */
+    /* backdrop-filter: blur(10px); */
+ }
+ 
+
+.teachlabelaside{
+   display: flex;
+   justify-content: space-between;
+}
+
+ .teachlabel {
+    margin-bottom: 5px;
+   font-size: large;
+    font-weight: 500; 
+    text-align: left;
+    width: 40%;
+ }
+ .dept{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+ }
+ /* .facultylab{
+     text-align:left;
+     color: red;
+ } */
+ .faculty{
+   width: 41%;
+   margin-bottom: 20px;
+ }
+ .faculty input{
+   width: 95%;
+   border-radius: 10px;
+   border-width: 0.5px;
+   height: 26px;
+   margin-bottom: 0.5rem;
+ }
+ .facrating{
+   display: flex;
+   justify-content: space-between;
+
+ }

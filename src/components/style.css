@@ -1,0 +1,95 @@
+
+.body {
+   background-image: url('https://image.freepik.com/free-photo/laptop-glasses-pen-placed-table_23-2147651018.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin: 0; 
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+
+h1{
+   text-align: center;
+}
+
+.container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   /* align-items: center;  */
+   flex-direction: column;
+   justify-content: center;
+   padding: 50px;
+   box-shadow: rgba(0,0,0,.35) 0px 5px 15px;
+   border-radius: 20px;
+   width: 25%;
+   background-color: rgba(240, 248, 255, 0.3); /* Use rgba for transparency */
+   backdrop-filter: blur(10px);
+}
+
+.inputbox {
+   display: flex;
+   position: relative;
+   width: 100%;
+   flex-direction: column;
+}
+
+.inputbox input {
+   backdrop-filter: blur(10px);
+
+   border: 2px solid rgb(80, 228, 188);
+   border-radius: 30px;
+   margin-top: 5px;
+   position: relative;
+   margin-bottom: 8px;
+   display: block;
+   font-size: 14px;
+   padding: 7px;
+   width: calc(100% - 14px); 
+}
+
+.lab{
+  text-align: left;
+}
+
+/*.sub{
+   border: none;
+   outline: none;
+
+}*/
+.sub {
+   display: flex;
+   position: relative;
+   /* flex-direction: column; */
+   width: 50%;
+   background-color: rgb(80, 228, 188);
+   border: none;
+   outline: none;
+   height: 40px;
+   border-radius: 30px;
+   color: white;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+   padding-left: 15%;
+   padding-right: 15%;
+   font-weight: 100;
+}
+
+.sub:hover {
+   color: rgb(80, 228, 188);
+   background-color: white;
+   transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+   border-color: rgb(80, 228, 188);
+}
+
+p{
+   text-align: center;
+   text-decoration: none;
+}
